@@ -1,12 +1,11 @@
 pipeline
 {
 agents any
-{
 stages
 {
-stage('build')
-{
-echo "build completed successfully"
+stage('build') {
+            steps {
+                sh 'mvn --version'
 }
 }
 }
