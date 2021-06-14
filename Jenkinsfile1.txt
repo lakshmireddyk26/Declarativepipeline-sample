@@ -1,0 +1,14 @@
+pipeline
+{
+agents any
+{
+stages
+{
+stage('build')
+{
+echo "build completed successfully"
+}
+}
+}
+}
+
